@@ -431,16 +431,8 @@ body::after{
 
     <div class="cd-subtitle">Hiii TY, you can wait here till the timeout reaches 0 if you want mademoiselle.. gotta surprise for you</div>
 
-    <!-- DEBUG SKIP -->
-    <button onclick="debugSkip()" style="
-      position:fixed;bottom:calc(env(safe-area-inset-bottom,0px)+14px);right:16px;
-      background:rgba(201,185,158,0.06);border:1px solid rgba(201,185,158,0.12);
-      border-radius:8px;padding:6px 10px;cursor:pointer;
-      font-family:'DM Mono',monospace;font-size:7px;letter-spacing:0.12em;text-transform:uppercase;
-      color:rgba(201,185,158,0.25);z-index:200;transition:opacity 0.2s;
-    " onmouseenter="this.style.opacity='0.7'" onmouseleave="this.style.opacity='1'">
-      ◈ peek
-    </button>
+    <!-- DEBUG SKIP (hidden) -->
+    <button onclick="debugSkip()" style="display:none">◈ peek</button>
 
   </div>
 </div>
